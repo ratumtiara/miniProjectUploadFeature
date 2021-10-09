@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope");
+
+.footer {
+  /* Bg */
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 72px;
+  bottom: 0px;
+  top: 2800px;
+
+  background: #ffffff;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.04),
+    0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.textFooter {
+  /* Bank Muamalat Terdaftar dan Diawasi oleh Otoritas Jasa Keuangan */
+  position: absolute;
+  width: 427px;
+  height: 24px;
+  left: 164px;
+  top: 12.5px;
+  /* Body / Body 2 */
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  font-feature-settings: "liga" off;
+
+  /* Main color */
+
+  color: #500878;
+}
+
+.logofooter {
+  position: absolute;
+  width: 482px;
+  height: 40px;
+  left: 794px;
+  top: 20px;
+}
+
+@media only screen and (min-width: 2500px) {
+  .footer {
+    /* Bg */
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 144px;
+    left: 0px;
+    bottom: 0px;
+    top: 3125px;
+
+    background: #ffffff;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+  .textFooter {
+    /* Bank Muamalat Terdaftar dan Diawasi oleh Otoritas Jasa Keuangan */
+    position: absolute;
+    width: 1000px;
+    /* height: 48px; */
+    left: 12%;
+    top: 24px;
+    /* Body / Body 2 */
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: "liga" off;
+
+    /* Main color */
+
+    color: #500878;
+  }
+
+  .logofooter {
+    position: absolute;
+    width: 800px;
+    height: auto;
+    left: 55%;
+    top: 30px;
+  }
+}
+

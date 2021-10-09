@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+.containermasuk {
+    position: absolute;
+width: 496px;
+height: 528px;
+left: 35%;
+top: 5%;
+
+
+background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 16px;
+}
+
+.x {
+    position: absolute;
+left: 92%;
+top: 3%;
+color: black;
+cursor: pointer;
+/* background: #000000; */
+}
+
+.containermasuk h2 {
+
+    position: absolute;
+width: 108px;
+height: 48px;
+left: 64px;
+top: 64px;
+
+/* Headline / Headline 2 */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+
+
+/* Main color */
+
+color: #500878;
+
+}
+
+.email2 {
+    position: absolute;
+width: 328px;
+height: 17px;
+left: 64px;
+top: 136px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+
+color: #888888;
+}
+
+.inputemail2 {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+
+position: absolute;
+width: 340px;
+height: 30px;
+left: 64px;
+top: 160px;
+border: none;
+
+background: #F4F4F4;
+border-radius: 8px;
+}
+
+.password3 {
+    position: absolute;
+width: 328px;
+height: 17px;
+left: 64px;
+top: 224px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+
+color: #888888;
+}
+
+.inputpassword3 {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+
+position: absolute;
+width: 340px;
+height: 30px;
+left: 64px;
+top: 248px;
+border: none;
+
+background: #F4F4F4;
+border-radius: 8px;
+}
+
+.masuk2 {
+    position: absolute;
+width: 368px;
+height: 48px;
+left: 64px;
+top: 360px;
+
+background: #C2C2C2;
+border-radius: 9px;
+cursor: pointer;
+border: none;
+}
+.masuk2:hover {
+    cursor: pointer;
+color: #C2C2C2;
+background: #500878;
+}
+
+.forgetpw {
+    position: absolute;
+width: 113px;
+height: 16px;
+left: 319px;
+top: 312px;
+cursor: pointer;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+text-align: center;
+text-decoration-line: underline;
+
+/* Main color */
+
+color: #500878;
+
+}
+
+.daftar {
+    position: absolute;
+width: 105px;
+height: 16px;
+left: 196px;
+top: 448px;
+cursor: pointer;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+text-align: center;
+text-decoration-line: underline;
+
+/* Main color */
+
+color: #500878;
+
+}

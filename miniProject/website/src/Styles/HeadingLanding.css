@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  width: 100vw;
+}
+
+/* #navigasi {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 197px;
+  height: 16px;
+  left: 979px;
+  top: 32px;
+} */
+
+#header {
+  position: absolute;
+  width: 100vw;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.masuk4 {
+  position: static;
+  width: 120px;
+  height: 16px;
+  left: 0px;
+  /* top: 10px; */
+  white-space: nowrap;
+  cursor: pointer;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  letter-spacing: 0.3px;
+
+  color: #363636;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 40px;
+  text-decoration: none;
+}
+
+
+.buttondaftar {
+    position: absolute;
+    width: 104px;
+    height: 40px;
+    cursor: pointer;
+    /* left: 1216px; */
+    top: 22px;
+    text-decoration: none;
+    background: #FBFBFB;
+
+
+    border: 1px solid #500878;
+    box-sizing: border-box;
+    border-radius: 4px; 
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    color: #500878;
+
+}
+
+/* .logo {
+  position: absolute;
+  width: 286px;
+  height: 32px;
+  left: 264px;
+  top: 24px;
+} */
+
+@media only screen and (max-width: 1441px) {
+  .logo {
+    position: absolute;
+    /* width: 286px;
+    height: 32px; */
+    margin-right: 50%;
+    margin-top: 3vh;
+    /* margin-left: 0px; */
+  }
+
+  #navigasi{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    /* position: absolute; */
+    width: 197px;
+    height: 16px;
+    margin-left: 50%;
+    margin-top: 3.5vh;
+  }
+
+  .buttondaftar {
+    position: absolute;
+    width: 104px;
+    height: 40px;
+    cursor: pointer;
+    /* left: 1216px; */
+    top: 22px;
+    text-decoration: none;
+    background: #FBFBFB;
+
+
+    border: 1px solid #500878;
+    box-sizing: border-box;
+    border-radius: 4px; 
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    color: #500878;
+
+}
+}
+
+@media only screen and (min-width: 1441px) {
+  .logo {
+    position: absolute;
+    /* width: 286px; */
+    /* height: 32px; */
+    margin-right: 55%;
+    margin-top: 3.5vh;
+  }
+
+  #navigasi{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    /* position: absolute; */
+    width: 197px;
+    height: 16px;
+    margin-left: 50%;
+    margin-top: 3.5vh;
+  }
+
+  .buttondaftar {
+    position: absolute;
+    width: 104px;
+    height: 40px;
+    cursor: pointer;
+    /* left: 1216px; */
+    top: 27px;
+    text-decoration: none;
+    background: #FBFBFB;
+
+
+    border: 1px solid #500878;
+    box-sizing: border-box;
+    border-radius: 4px; 
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    color: #500878;
+
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  .logo {
+    position: absolute;
+    /* width: 286px; */
+    /* height: 32px; */
+    margin-right: 43%;
+    margin-top: 3.5vh;
+  }
+
+  .logo img {
+    width: 17vw;
+  }
+
+  #navigasi {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    /* position: absolute; */
+    width: 197px;
+    height: 16px;
+    margin-left: 35%;
+    margin-top: 4.5vh;
+  }
+
+  .buttondaftar {
+    position: absolute;
+    width: 208px;
+    height: 80px;
+    cursor: pointer;
+    /* left: 1216px; */
+    top: 32px;
+    text-decoration: none;
+    background: #FBFBFB;
+
+
+    border: 1px solid #500878;
+    box-sizing: border-box;
+    border-radius: 8px; 
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 16px;
+    text-decoration: none;
+
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    color: #500878;
+
+  }
+
+  .masuk4 {
+    position: static;
+    width: 120px;
+    height: 16px;
+    left: 0px;
+    /* top: 10px; */
+    white-space: nowrap;
+    cursor: pointer;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+  
+    letter-spacing: 0.3px;
+  
+    color: #363636;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 80px;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 3500px) {
+  .logo {
+    position: absolute;
+    /* width: 286px; */
+    /* height: 32px; */
+    margin-right: 43%;
+    margin-top: 3.5vh;
+  }
+
+  .logo img {
+    width: 17vw;
+  }
+
+  #navigasi {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    /* position: absolute; */
+    width: 197px;
+    height: 16px;
+    margin-left: 35%;
+    margin-top: 4.5vh;
+  }
+
+  .buttondaftar {
+    position: absolute;
+    width: 208px;
+    height: 80px;
+    cursor: pointer;
+    /* left: 1216px; */
+    top: 55px;
+    text-decoration: none;
+    background: #FBFBFB;
+
+
+    border: 1px solid #500878;
+    box-sizing: border-box;
+    border-radius: 8px; 
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 16px;
+    text-decoration: none;
+
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    color: #500878;
+
+  }
+
+  .masuk4 {
+    position: static;
+    width: 120px;
+    height: 16px;
+    left: 0px;
+    /* top: 10px; */
+    white-space: nowrap;
+    cursor: pointer;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+  
+    letter-spacing: 0.3px;
+  
+    color: #363636;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 80px;
+    text-decoration: none;
+  }
+}

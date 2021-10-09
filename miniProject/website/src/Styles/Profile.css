@@ -1,0 +1,95 @@
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfbfb;
+}
+
+#title {
+    width: 60%;
+    text-align: left;
+    margin-left: 20%;
+}
+
+#titleWrapper {
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    #profileButtonWrapper {
+        gap: 16px;
+        margin-left: 0%
+    }
+
+    #keterangan {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        padding-right: 20px;
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #profileButtonWrapper {
+        gap: 16px;
+        margin-left: 11%
+    }
+
+    #keterangan {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        padding-right: 20px;
+        padding-top: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 2500px) {
+    #profileButtonWrapper {
+        gap: 16px;
+        margin-left: 0%
+    }
+
+    #keterangan {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 20px;
+        text-align: right;
+        padding-right: 40px;
+        padding-top: 35px;
+        width: 500px;
+    }
+
+}
+
+@media only screen and (min-width: 3500px) {
+    #profileButtonWrapper {
+        gap: 16px;
+        margin-left: 16%
+    }
+
+    #keterangan {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 20px;
+        text-align: right;
+        padding-right: 40px;
+        padding-top: 35px;
+        width: 500px;
+    }
+
+}
+

@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  width: 100vw;
+}
+
+#headerWrapper {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  
+  width: 100vw;
+  height: 10vh;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  justify-content: center;
+}
+
+.formPengajuan {
+  position: static;
+  width: 120px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  white-space: nowrap;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8vh;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  letter-spacing: 0.3px;
+
+  color: #363636;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 40px;
+  text-decoration: none;
+}
+
+.profile {
+  position: static;
+  width: 37px;
+  height: 16px;
+  left: 170px;
+  top: 0px;
+  text-decoration: none;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8vh;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  text-align: right;
+  letter-spacing: 0.3px;
+
+  color: #363636;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 40px;
+}
+
+#headerUtama {
+  width: 60vw;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1441px) {
+  .logoUtama {
+    position: absolute;
+    /* width: 286px;
+    height: 32px; */
+    margin-right: 40%;
+    margin-top: 3vh;
+  }
+
+  .logoUtama img {
+    width: 20vw;
+  }
+
+  #navigasiUtama {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    /* position: absolute; */
+    width: 197px;
+    height: 16px;
+    margin-left: 30%;
+    margin-top: 3.5vh;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  .logoUtama {
+    position: absolute;
+    /* width: 286px; */
+    /* height: 32px; */
+    margin-right: 32%;
+    margin-top: 3vh;
+  }
+
+  .logoUtama img {
+    width: 15vw;
+  }
+
+  #navigasiUtama {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    /* position: absolute; */
+    width: 197px;
+    height: 16px;
+    margin-left: 25%;
+    margin-top: 3.5vh;
+  }
+}
+
+@media only screen and (min-width: 2048px) {
+  .logoUtama {
+    position: absolute;
+    /* width: 286px; */
+    /* height: 32px; */
+    margin-right: 32%;
+    margin-top: 3vh;
+  }
+
+  .logoUtama img {
+    width: 15vw;
+  }
+
+  #navigasiUtama {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    /* position: absolute; */
+    width: 197px;
+    height: 16px;
+    margin-left: 20%;
+    margin-top: 3.5vh;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  .logoUtama {
+    position: absolute;
+    /* width: 286px; */
+    /* height: 32px; */
+    margin-right: 43%;
+    margin-top: 3.5vh;
+  }
+
+  .logoUtama img {
+    width: 17vw;
+  }
+
+  #navigasiUtama {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    /* position: absolute; */
+    width: 197px;
+    height: 16px;
+    margin-left: 35%;
+    margin-top: 4vh;
+  }
+}
+
+@media only screen and (min-width: 3500px) {
+  .logoUtama {
+    position: absolute;
+    /* width: 286px; */
+    /* height: 32px; */
+    margin-right: 25%;
+    margin-top: 3.5vh;
+  }
+
+  .logoUtama img {
+    width: 17vw;
+  }
+
+  #navigasiUtama {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    /* position: absolute; */
+    width: 197px;
+    height: 16px;
+    margin-left: 17%;
+    margin-top: 4.5vh;
+  }
+}

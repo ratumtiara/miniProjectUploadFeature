@@ -1,0 +1,1253 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+
+body {
+  background: #f4f4f4;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  width: 100vw;
+  /* padding: 0 20px; */
+}
+
+.basicForm {
+  width: 100%;
+  max-width: 912px;
+  padding-left: 136px;
+  padding-right: 136px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 24px;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.titleOne {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.titleTwo {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* margin-bottom: 0px; */
+}
+
+.basicInput {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  background-color: #f4f4f4;
+  height: 48px;
+  border-radius: 8px;
+  border: 0px;
+  margin: 10px 0 24px 0px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.basicInput:focus {
+  background-color: #ede5ee;
+  outline: none;
+}
+
+.inputWithIconLeftWrapper input {
+  display: flex;
+  flex-direction: row;
+  padding-left: 56px;
+  padding-top: 5px;
+}
+
+.inputWithIconLeftWrapper {
+  position: relative;
+}
+
+.inputWithIconLeftWrapper label {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #e3e3e3;
+  height: 36px;
+  width: 48px;
+  border-radius: 8px 0px 0px 8px;
+  text-align: center;
+  padding-top: 12px;
+}
+.inputWithIconLeft {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  background-color: #f4f4f4;
+  height: 48px;
+  border-radius: 8px;
+  border: 0px;
+  box-sizing: border-box;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  margin-top: 8px;
+}
+
+.inputWithIconLeft:focus {
+  background-color: #ede5ee;
+  outline: none;
+}
+
+.inputWithIconLeftWrapper input:focus + label {
+  background-color: #dccee4;
+}
+
+.iconLeft {
+  background-color: #f4f4f4;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  align-items: center;
+}
+
+.inputWithIconRightWrapper input {
+  display: flex;
+  flex-direction: row;
+  padding-left: 8px;
+  padding-top: 5px;
+}
+
+.inputWithIconRightWrapper {
+  position: relative;
+}
+
+.inputWithIconRightWrapper label {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: #e3e3e3;
+  height: 36px;
+  width: 72px;
+  border-radius: 0px 8px 8px 0px;
+  text-align: center;
+  padding-top: 12px;
+}
+.inputWithIconRight {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  background-color: #f4f4f4;
+  height: 48px;
+  border-radius: 8px;
+  border: 0px;
+  box-sizing: border-box;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  margin-top: 8px;
+}
+
+.inputWithIconRight:focus {
+  background-color: #ede5ee;
+  outline: none;
+}
+
+.inputWithIconRightWrapper input:focus + label {
+  background-color: #dccee4;
+}
+
+.iconRight {
+  background-color: #f4f4f4;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  align-items: center;
+}
+
+.divider {
+  width: 100%;
+  max-width: 640px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: 0, 8px solid #363636;
+  height: 0px;
+  color: #888888;
+}
+
+.basicLabel {
+  margin-top: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #888888;
+}
+
+.radioWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.radioContainer {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  width: 42%;
+  max-width: 312px;
+  height: 48px;
+  /* max-height: 48px; */
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding-left: 42px;
+  /* padding-top: 12px; */
+  top: 8px;
+
+  margin-bottom: 24px;
+}
+
+.radioContainerThird {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  width: 25%;
+  /* max-width: px; */
+  height: 48px;
+  /* max-height: 48px; */
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding-left: 42px;
+  /* padding-top: 12px; */
+  top: 8px;
+
+  margin-bottom: 24px;
+}
+
+.radioLabel {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #363636;
+  padding-top: 12px;
+}
+
+/* Hide the browser's default radio button */
+.radioContainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radioContainerThird input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1.5px solid #bfbfbf;
+}
+
+/* On mouse-over, add a grey background color */
+.radioContainer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radioContainer input:checked ~ .radioLabel:after {
+  color: black;
+}
+
+.radioContainerThird:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radioContainerThird input:checked ~ .radioLabel:after {
+  color: black;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radioContainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radioContainer .checkmark:after {
+  top: 3.5px;
+  left: 3.5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #500878;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radioContainerThird input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radioContainerThird .checkmark:after {
+  top: 3.5px;
+  left: 3.5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #500878;
+}
+
+.dropdownSelect {
+  background: #f4f4f4;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 20px;
+  color: #363636;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+  border: none;
+  height: 48px;
+  width: 640px;
+  cursor: pointer;
+  order: 0;
+  outline: none;
+}
+
+.dropdownSelect::after {
+  content: "";
+  /* background: url("img/arrow-down-sign-to-navigate.png"); */
+  background-size: 15px;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+
+  position: absolute;
+  height: 100%;
+  width: 32px;
+  right: 10px;
+  top: 5px;
+
+  transition: all 0.4s;
+}
+
+.firstPageButtonsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transparentButton {
+  margin-top: 24px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-family: Poppins;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #500878;
+  margin-bottom: 48px;
+}
+
+.primaryButton {
+  margin-top: 24px;
+  width: 156px;
+  height: 48px;
+  background: #500878;
+  border-radius: 9px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  cursor: pointer;
+  text-align: center;
+
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+
+.secondaryButton {
+  border-radius: 9px;
+  width: 156px;
+  height: 48px;
+  margin-top: 24px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #500878;
+  cursor: pointer;
+  font-family: Poppins;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #500878;
+  margin-bottom: 48px;
+}
+
+.profileButtonDisable {
+  border-radius: 9px;
+  width: 192px;
+  height: 56px;
+  margin-top: 24px;
+  background-color: #ffffff;
+  border: 2px solid #500878;
+  cursor: pointer;
+  font-family: Poppins;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #500878;
+  margin-bottom: 24px;
+  margin-right: 16px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.profileButton {
+  border-radius: 9px;
+  width: 192px;
+  height: 56px;
+  margin-top: 24px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-family: Poppins;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #363636;
+  margin-bottom: 24px;
+  margin-right: 16px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.dropdownSelectHalf {
+  background: #f4f4f4;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 20px;
+  color: #363636;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+  border: none;
+  height: 48px;
+  width: 312px;
+  cursor: pointer;
+  order: 0;
+  outline: none;
+}
+
+.dropdownSelectHalf::after {
+  content: "";
+  /* background: url("img/arrow-down-sign-to-navigate.png"); */
+  background-size: 15px;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+
+  position: absolute;
+  height: 100%;
+  width: 32px;
+  right: 10px;
+  top: 5px;
+
+  transition: all 0.4s;
+}
+
+.halfHalf {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  max-width: 312px;
+  justify-content: space-between;
+}
+
+.halfQuarter {
+  width: 50%;
+  max-width: 152px;
+}
+
+.wrapperHalf {
+  width: 100%;
+  margin: 0px;
+}
+
+.sliceForSecondPageButton {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fileUploadWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 640px;
+  height: 80px;
+  background-color: #fbfbfb;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.uploadFileTitleWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-top: 16px;
+}
+
+.uploadFileTitle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #363636;
+}
+
+.uploadFileDescription {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.uploadButton {
+  width: 73px;
+  height: 37px;
+
+  /* Ungu 5 */
+
+  background: #966bae;
+  border-radius: 6px;
+  color: #fbfbfb;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 32px;
+  padding-left: 45px;
+  padding-top: 3px;
+}
+
+.forKeterangan {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+
+  color: #999999;
+}
+
+.forKetRingkasan {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  text-align: justify;
+  letter-spacing: 0.5px;
+
+  color: #999999;
+}
+
+@media only screen and (min-width: 2500px) {
+
+  .profileButtonDisable {
+    border-radius: 18px;
+    width: 384px;
+    height: 112px;
+    margin-top: 48px;
+    background-color: #ffffff;
+    border: 2px solid #500878;
+    cursor: pointer;
+    font-family: Poppins;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    color: #500878;
+    margin-bottom: 48px;
+    margin-right: 32px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+  
+  .profileButton {
+    border-radius: 18px;
+    width: 384px;
+    height: 112px;
+    margin-top: 48px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: Poppins;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    color: #363636;
+    margin-bottom: 48px;
+    margin-right: 32px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+
+  .basicForm {
+    width: 100%;
+    max-width: 1600px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-bottom: 5vh;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 60px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+
+  .titleOne {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 40px;
+  }
+
+  .titleTwo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 24px;
+    /* margin-bottom: 0px; */
+  }
+
+  .basicInput {
+    display: block;
+    width: 100%;
+    max-width: 1100px;
+    background-color: #f4f4f4;
+    height: 90px;
+    border-radius: 16px;
+    border: 0px;
+    margin: 10px 0 48px 0px;
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 24px;
+  }
+
+  .basicInput:focus {
+    background-color: #ede5ee;
+    outline: none;
+  }
+
+  .inputWithIconLeftWrapper input {
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    padding-top: 5px;
+  }
+
+  .inputWithIconLeftWrapper {
+    position: relative;
+  }
+
+  .inputWithIconLeftWrapper label {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #e3e3e3;
+    height: 55px;
+    width: 100px;
+    border-radius: 16px 0px 0px 16px;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .inputWithIconLeft {
+    display: block;
+    width: 100%;
+    max-width: 1100px;
+    background-color: #f4f4f4;
+    height: 90px;
+    border-radius: 16px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 24px;
+    margin-bottom: 48px;
+    margin-top: 8px;
+  }
+
+  .inputWithIconLeft:focus {
+    background-color: #ede5ee;
+    outline: none;
+  }
+
+  .inputWithIconLeftWrapper input:focus + label {
+    background-color: #dccee4;
+  }
+
+  .iconLeft {
+    background-color: #f4f4f4;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 24px;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .inputWithIconRightWrapper input {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 5px;
+  }
+
+  .inputWithIconRightWrapper {
+    position: relative;
+  }
+
+  .inputWithIconRightWrapper label {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #e3e3e3;
+    height: 55px;
+    width: 120px;
+    border-radius: 0px 16px 16px 0px;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .inputWithIconRight {
+    display: block;
+    width: 100%;
+    max-width: 1100px;
+    background-color: #f4f4f4;
+    height: 90px;
+    border-radius: 16px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 24px;
+    margin-bottom: 48px;
+    margin-top: 8px;
+  }
+
+  .inputWithIconRight:focus {
+    background-color: #ede5ee;
+    outline: none;
+  }
+
+  .inputWithIconRightWrapper input:focus + label {
+    background-color: #dccee4;
+  }
+
+  .iconRight {
+    background-color: #f4f4f4;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 24px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .divider {
+    width: 100%;
+    max-width: 1600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 0, 8px solid #363636;
+    height: 0px;
+    color: #888888;
+  }
+
+  .basicLabel {
+    margin-top: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    color: #888888;
+  }
+
+  .radioWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .radioContainer {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    width: 45%;
+    max-width: 950px;
+    height: 90px;
+    /* max-height: 48px; */
+    background: #f4f4f4;
+    border-radius: 16px;
+    padding-left: 42px;
+    /* padding-top: 12px; */
+    top: 8px;
+
+    margin-bottom: 48px;
+  }
+
+  .radioContainerThird {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    width: 27%;
+    /* max-width: px; */
+    height: 90px;
+    /* max-height: 48px; */
+    background: #f4f4f4;
+    border-radius: 16px;
+    padding-left: 42px;
+    /* padding-top: 12px; */
+    top: 8px;
+
+    margin-bottom: 24px;
+  }
+
+  .radioLabel {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 24px;
+    color: #363636;
+    padding-top: 30px;
+    padding-left: 35px;
+  }
+
+  /* Hide the browser's default radio button */
+  .radioContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .radioContainerThird input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1.5px solid #bfbfbf;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .radioContainer:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .radioContainer input:checked ~ .radioLabel:after {
+    color: black;
+  }
+
+  .radioContainerThird:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .radioContainerThird input:checked ~ .radioLabel:after {
+    color: black;
+  }
+
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the indicator (dot/circle) when checked */
+  .radioContainer input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the indicator (dot/circle) */
+  .radioContainer .checkmark:after {
+    top: 6.75px;
+    left: 6.75px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #500878;
+  }
+
+  /* Show the indicator (dot/circle) when checked */
+  .radioContainerThird input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the indicator (dot/circle) */
+  .radioContainerThird .checkmark:after {
+    top: 6.75px;
+    left: 6.75px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #500878;
+  }
+
+  .dropdownSelect {
+    background: #f4f4f4;
+    border-radius: 16px;
+    margin-top: 8px;
+    margin-bottom: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #363636;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 24px;
+    position: relative;
+    border: none;
+    height: 90px;
+    width: 1100px;
+    cursor: pointer;
+    order: 0;
+    outline: none;
+  }
+
+  .dropdownSelect::after {
+    content: "";
+    /* background: url("img/arrow-down-sign-to-navigate.png"); */
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    right: 10px;
+    top: 5px;
+
+    transition: all 0.4s;
+  }
+
+  .firstPageButtonsWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .transparentButton {
+    margin-top: 48px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-family: Poppins;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    color: #500878;
+    margin-bottom: 96px;
+  }
+
+  .primaryButton {
+    margin-top: 24px;
+    width: 300px;
+    height: 96px;
+    background: #500878;
+    border-radius: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    cursor: pointer;
+    text-align: center;
+
+    color: #ffffff;
+    margin-bottom: 96px;
+  }
+
+  .secondaryButton {
+    border-radius: 16px;
+    width: 300px;
+    height: 96px;
+    margin-top: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #500878;
+    cursor: pointer;
+    font-family: Poppins;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    color: #500878;
+    margin-bottom: 96px;
+  }
+
+  .dropdownSelectHalf {
+    background: #f4f4f4;
+    border-radius: 16px;
+    margin-top: 8px;
+    margin-bottom: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #363636;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 24px;
+    position: relative;
+    border: none;
+    height: 90px;
+    width: 100%;
+    max-width: 624px;
+    cursor: pointer;
+    order: 0;
+    outline: none;
+  }
+
+  .dropdownSelectHalf::after {
+    content: "";
+    /* background: url("img/arrow-down-sign-to-navigate.png"); */
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    right: 10px;
+    top: 5px;
+
+    transition: all 0.4s;
+  }
+
+  .halfHalf {
+    display: flex;
+    flex-direction: row;
+    width: 49%;
+    max-width: 624px;
+    justify-content: space-between;
+  }
+
+  .halfQuarter {
+    width: 45%;
+    max-width: 304px;
+  }
+
+  .wrapperHalf {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .sliceForSecondPageButton {
+    width: 55%;
+    gap: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .fileUploadWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1100px;
+    height: 150px;
+    background-color: #fbfbfb;
+    border-radius: 16px;
+    margin-top: 40px;
+  }
+
+  .uploadFileTitleWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 48px;
+    padding-top: 44px;
+  }
+
+  .uploadFileTitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 20px;
+    color: #363636;
+    margin-bottom: 24px;
+  }
+
+  .uploadFileDescription {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    color: #999999;
+  }
+
+  .uploadButton {
+    width: 125px;
+    height: 55px;
+
+    /* Ungu 5 */
+
+    background: #966bae;
+    border-radius: 12px;
+    color: #fbfbfb;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 48px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    padding-left: 65px;
+    padding-top: 25px;
+  }
+
+  .forKeterangan {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* identical to box height, or 200% */
+
+    color: #999999;
+  }
+}
+
+.btnActive {
+  background-color: #500878;
+}
+
+.fileUploadRingkasanWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 1100px; */
+  height: 52px;
+  background-color: #fbfbfb;
+  border-radius: 16px;
+  margin-top: 40px;
+}

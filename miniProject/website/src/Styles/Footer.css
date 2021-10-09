@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope");
+
+.bgfooter {
+  background: #fbfbfb;
+}
+
+@media only screen and (max-width: 1441px) {
+  .footerUtama {
+    /* Bg */
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 72px;
+    left: 0px;
+    bottom: 0px;
+    /* top: 300px; */
+
+    background: #ffffff;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+
+  .textFooter {
+    /* Bank Muamalat Terdaftar dan Diawasi oleh Otoritas Jasa Keuangan */
+    position: absolute;
+    width: 427px;
+    height: 24px;
+    left: 15%;
+    top: 12.5px;
+    /* Body / Body 2 */
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: "liga" off;
+
+    /* Main color */
+
+    color: #500878;
+  }
+
+  .logofooter {
+    position: absolute;
+    width: 482px;
+    height: 40px;
+    left: 53%;
+    top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  .footerUtama {
+    /* Bg */
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 72px;
+    left: 0px;
+    bottom: 0px;
+    /* top: 300px; */
+
+    background: #ffffff;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+
+  .textFooter {
+    /* Bank Muamalat Terdaftar dan Diawasi oleh Otoritas Jasa Keuangan */
+    position: absolute;
+    width: 427px;
+    height: 24px;
+    left: 22%;
+    top: 12.5px;
+    /* Body / Body 2 */
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: "liga" off;
+
+    /* Main color */
+
+    color: #500878;
+  }
+
+  .logofooter {
+    position: absolute;
+    width: 482px;
+    height: 40px;
+    left: 55%;
+    top: 20px;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  .footerUtama {
+    /* Bg */
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 144px;
+    left: 0px;
+    bottom: 0px;
+    top: 7vh;
+
+    background: #ffffff;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+  .textFooter {
+    /* Bank Muamalat Terdaftar dan Diawasi oleh Otoritas Jasa Keuangan */
+    position: absolute;
+    width: 1000px;
+    /* height: 48px; */
+    left: 12%;
+    /* top: 24px; */
+    /* Body / Body 2 */
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: "liga" off;
+
+    /* Main color */
+
+    color: #500878;
+  }
+
+  .logofooter {
+    position: absolute;
+    width: 800px;
+    height: auto;
+    left: 55%;
+    top: 30px;
+  }
+}
+
+@media only screen and (min-width: 3500px) {
+  .footerUtama {
+    /* Bg */
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 144px;
+    left: 0px;
+    bottom: 0px;
+    /* top: 28vh; */
+
+    background: #ffffff;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+
+  .textFooter {
+    /* Bank Muamalat Terdaftar dan Diawasi oleh Otoritas Jasa Keuangan */
+    position: absolute;
+    width: 1000px;
+    /* height: 48px; */
+    left: 25%;
+    top: 24px;
+    /* Body / Body 2 */
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: "liga" off;
+
+    /* Main color */
+
+    color: #500878;
+  }
+
+  .logofooter {
+    position: absolute;
+    width: 800px;
+    height: auto;
+    left: 55%;
+    top: 30px;
+  }
+}
